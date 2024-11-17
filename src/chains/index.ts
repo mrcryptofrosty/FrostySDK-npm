@@ -72,6 +72,12 @@ const lineaSepolia: Chain = {
   addresses: addresses.lineaSepolia,
 }
 
+const sepolia: Chain = {
+  id: 11_155_111,
+  network: 'sepolia',
+  addresses: addresses.sepolia,
+}
+
 const localhost: Chain = {
   id: 1_337,
   network: 'localhost',
@@ -101,6 +107,7 @@ export const chain = {
   arbitrumGoerli,
   arbitrumSepolia,
   lineaSepolia,
+  sepolia,
   hardhat,
   localhost,
   withId,
@@ -118,6 +125,8 @@ export const allChains = [
   arbitrumGoerli,
   arbitrumSepolia,
   lineaSepolia,
+  sepolia,
+  
   hardhat,
   localhost,
 ];

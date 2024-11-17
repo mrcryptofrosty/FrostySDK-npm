@@ -10,6 +10,7 @@ import hardhat from './31337-hardhat.json';
 import arbitrumSepolia from './421614-arbitrumSepolia.json';
 import optimismSepolia from './11155420-optimismSepolia.json';
 import lineaSepolia from './59141-lineaSepolia.json';
+import sepolia from './11155111-sepolia.json';
 
 
 export type Addresses = {
@@ -39,4 +40,5 @@ export const addresses = {
   arbitrumSepolia,
   optimismSepolia,
   lineaSepolia,
+  sepolia,
 }

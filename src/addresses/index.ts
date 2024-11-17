@@ -7,6 +7,10 @@ import optimismGoerli from './420-optimismGoerli.json';
 import arbitrum from './42161-arbitrum.json';
 import arbitrumGoerli from './421613-arbitrumGoerli.json';
 import hardhat from './31337-hardhat.json';
+import arbitrumSepolia from './421614-arbitrumSepolia.json';
+import optimismSepolia from './11155420-optimismSepolia.json';
+import lineaSepolia from './59141-lineaSepolia.json';
+
 
 export type Addresses = {
   FRSTSDK: string;
@@ -32,4 +36,7 @@ export const addresses = {
   arbitrum,
   arbitrumGoerli,
   hardhat,
+  arbitrumSepolia,
+  optimismSepolia,
+  lineaSepolia,
 }

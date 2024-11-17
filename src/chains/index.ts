@@ -42,6 +42,12 @@ const optimismGoerli: Chain = {
   addresses: addresses.optimismGoerli,
 }
 
+const optimismSepolia: Chain = {
+  id: 11_155_420,
+  network: 'optimismSepolia',
+  addresses: addresses.optimismSepolia,
+}
+
 const arbitrum: Chain = {
   id: 42_161,
   network: 'arbitrum',
@@ -52,6 +58,18 @@ const arbitrumGoerli: Chain = {
   id: 421_613,
   network: 'arbitrumGoerli',
   addresses: addresses.arbitrumGoerli,
+}
+
+const arbitrumSepolia: Chain = {
+  id: 421_614,
+  network: 'arbitrumSepolia',
+  addresses: addresses.arbitrumSepolia,
+}
+
+const lineaSepolia: Chain = {
+  id: 59_141,
+  network: 'lineaSepolia',
+  addresses: addresses.lineaSepolia,
 }
 
 const localhost: Chain = {
@@ -78,8 +96,11 @@ export const chain = {
   polygonMumbai,
   optimism,
   optimismGoerli,
+  optimismSepolia,
   arbitrum,
   arbitrumGoerli,
+  arbitrumSepolia,
+  lineaSepolia,
   hardhat,
   localhost,
   withId,
@@ -92,8 +113,11 @@ export const allChains = [
   polygonMumbai,
   optimism,
   optimismGoerli,
+  optimismSepolia,
   arbitrum,
   arbitrumGoerli,
+  arbitrumSepolia,
+  lineaSepolia,
   hardhat,
   localhost,
 ];
